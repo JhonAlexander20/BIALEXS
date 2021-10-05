@@ -11,7 +11,7 @@ double monto=0;
 String regalo="";
 //Datos de entrada
 System.out.println("ingrese el monto disponible:");
-monto=sc.nexDouble();
+monto=sc.nextDouble();
 //Proceso
 if(monto >=1 && monto<=10){
 regalo+="\ntarjeta";
