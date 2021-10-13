@@ -16,9 +16,11 @@ monto=sc.nextDouble();
 
   //Proceso
 if(monto >=0 && monto<=100){
-bono+="\nsalario1";
+bono+="\ntarjeta";
 }else if(monto>=101 && monto<=150){
-  bono="\nsalario1\nsalmin2";
+bono="\nsalirio1";
+}else if(monto>=101 && monto<=250){
+  regalo="\nsalario1\nsalmin2";
 }else if(monto>=151){
   bono="\nsalario1\nsalmin2\nsalmin3";
 }else{
@@ -26,9 +28,9 @@ bono+="\nsalario1";
 }
   //Datos de salida
 
-  System.out.println("que salario le  corresponde:"+ bono);
+  System.out.println("yo pue:"+ regalo);
 }
 public static void main(String[] arg){
-algoritmobono();
+algoritmoregalos();
 }
 }
