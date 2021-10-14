@@ -11,9 +11,9 @@
     "Examenupeu/ejercicio5.java": [
       {
         "id": "88801e89-c14c-4f90-9658-00e991488ec6",
-        "line": 7,
-        "version": 3,
-        "index": 372
+        "line": 10,
+        "version": 157,
+        "index": 460
       }
     ],
     "estSecuencial/alumnos.py": [
@@ -22,6 +22,14 @@
         "line": 1,
         "version": 8,
         "index": 0
+      }
+    ],
+    "estSecuencial/calculo.py": [
+      {
+        "id": "95250d24-6228-41d9-9893-53f4d37efdad",
+        "line": 9,
+        "version": 368,
+        "index": 279
       }
     ]
   }
