@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Trabajo4{
+public class Trabajo3{
   static Scanner sc = new Scanner(System.in);
   static void algoritmoEstacionamiento(){
     // definir variables
