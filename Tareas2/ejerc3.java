@@ -1,39 +1,36 @@
-import java.util.Scanner;
+ import java.util.Scanner; 
 
-public class Eaalexs{
+public class Ejercicio3 {
 
 static Scanner sc = new Scanner(System.in);
-  
-static void definir el montotal(){
 
-  //Definir variable
-  int monto a depositar=n, numero de anho=n;
 
-  //Datos de entrada
+  public static void main(String[] args) {
+    
+    //Definir variables
+    int k;
 
-  System.out.prinln("ingrese monto inicial n");
-  monto =sc.nextInt();
+    //Datos de entrada
+    System.out.println("Ingrese un numero entero positivo");
+    k=sc.nextInt();
+    
+    //Proceso
+    if (k>0){
 
-  //Porceso
-  if(monincial=n){
+        for(int i = 1;i <= 12;i++){
 
-for(int i = 1; <=n;i++){
-moninicial+(salario*0.10);
+          //Datos de salida
 
-//Datos de salida
+          System.out.println(k+"  por  " +i+  "  es igual a: "+k*i);
+        }
 
-System.out.prinln("el monto total del anho " +i+ " es :"
-+moninicial);
-}
-System.out.println("el monto total de "n" anhos"+moninicial);
-  }
-//Datos de salida
-  
- else{ 
-   System.out.println("monto total de n anhos es:");
-   
- }
-public static void main(String [] arg){
-    definmontotal();
-  }
+    }
+    
+    else{
+      System.out.println("El numero ingresado no es correcto"+"\nintentalo nuevamente");
+
+    }
+
+    }
+
 }

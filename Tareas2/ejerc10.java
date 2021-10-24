@@ -1,39 +1,35 @@
-import java.util.Scanner;
-
-public class Eaalexs{
+   import java.util.Scanner; 
+public class Ejercicio10 {
 
 static Scanner sc = new Scanner(System.in);
-  
-static void definir el montotal(){
+  public static void main(String[] args) {
+    
+    //Definir variables
+    int n=1,nota;
+    String nombre;
+    String rojo = "\033[31m";
+    String verde = "\033[32m";
+    String blanco = "\033[37m";
+    //Datos de entrada
+    System.out.println("\tCONDICION DE ESTUDIANTE");
+    do {
+      System.out.print("Ingrese el nombre:  ");
+      nombre=sc.nextLine();
+      System.out.print("Ingrese la nota:  ");
+      nota = sc.nextInt();
+      
+      if (nota>13) {
+        System.out.println("\t"+ verde +nombre+ "  Aprobado");
+      }
+      else{
+        System.out.println("\t"+ rojo +nombre+"   Reprobado");
+      }
+      System.out.print(blanco+"Desea continuar (1 = si)(# = No): ");
+      n = sc.nextInt();
+      sc.nextLine();
+    }while (n==1);
 
-  //Definir variable
-  int monto a depositar=n, numero de anho=n;
-
-  //Datos de entrada
-
-  System.out.prinln("ingrese monto inicial n");
-  monto =sc.nextInt();
-
-  //Porceso
-  if(monincial=n){
-
-for(int i = 1; <=n;i++){
-moninicial+(salario*0.10);
-
-//Datos de salida
-
-System.out.prinln("el monto total del anho " +i+ " es :"
-+moninicial);
-}
-System.out.println("el monto total de "n" anhos"+moninicial);
   }
-//Datos de salida
   
- else{ 
-   System.out.println("monto total de n anhos es:");
-   
- }
-public static void main(String [] arg){
-    definmontotal();
-  }
 }
+    
